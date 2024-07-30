@@ -1,0 +1,49 @@
+/* Navbar text design */
+.navbar-brand{
+  font-weight: bold;
+  font-size: 55px;
+  
+}
+
+/* nav link text style and hover actions */
+.nav-link {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #00ff6e;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.nav-link:hover {
+  color: #ff0000;
+}
+
+.nav-link.active {
+  color: #007bff;
+}
+
+/* wrap container display style code */
+.wrap{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: space-evenly;
+}
+/* image style code for height and width */
+img{
+  height: 200px;
+  width: 300px;
+}
+
+/* Card style code for margin */
+.card{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* home image style code for height and width */
+.home-image{
+  width: 90%;
+  height: 70%;
+}
